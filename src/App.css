@@ -4,16 +4,20 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #E7EFFB;
 }
 
 .calculator {
+  padding:50px;
   margin: 20px;
+  background-color: #C6DAF8;
 }
 
 .buttons {
   display: grid;
   grid-template-columns: repeat(3, 50px);
   grid-gap: 10px;
+ 
 }
 
 button {
@@ -23,5 +27,8 @@ button {
 }
 
 .result {
+  height: 50px;
   margin-top: 20px;
+  font-size: 2em;
+  background-color: #E7EFFB;
 }
