@@ -30,9 +30,9 @@ const Calculator = () => {
                     <button onClick={()=> HandleClick('8')}>8</button>
                     <button onClick={()=> HandleClick('9')}>9</button>
                     <button onClick={()=> HandleClick('0')}>0</button>
-                    <button onClick={()=> HandleClick('+')}>+</button>
-                    <button onClick={()=> HandleClick('=')}>=</button>
-                    <button onClick={()=> HandleClick('C')}>C</button>
+                    <button class="operator" onClick={()=> HandleClick('+')}>+</button>
+                    <button class="equal" onClick={()=> HandleClick('=')}>=</button>
+                    <button class="clear" onClick={()=> HandleClick('C')}>C</button>
                 </div>
                 <Link to='/results'>Resultado</Link>
             </div>

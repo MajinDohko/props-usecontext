@@ -9,7 +9,7 @@ const Result = () => {
     return(
        <div className='result'>
         <h1>Resultado: {currentNumber} </h1>
-        <Link to='/'>Calculadora</Link>
+        <Link to='/' className="custom-button">Calculadora</Link>
        </div>
 
     )
